@@ -1,9 +1,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "telegram-bot-swift",
+    name: "telegram-swift",
     dependencies: [
-      .Package(url: "https://github.com/theshepster/SwiftyJSON.git", versions: "2.2.0" ..< Version.max)
+      .Package(url: "https://github.com/theshepster/SwiftyJSON.git", Version(2,2,0))
     ]
 )
 
