@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "telegram-swift",
     dependencies: [
-      .Package(url: "https://github.com/theshepster/SwiftyJSON.git", Version(2,3,3))
+      .Package(url: "https://github.com/theshepster/SwiftyJSON.git", Version(2,3,4))
     ]
 )
 
